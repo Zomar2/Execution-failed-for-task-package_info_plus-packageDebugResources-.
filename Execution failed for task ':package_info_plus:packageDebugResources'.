@@ -1,0 +1,41 @@
+i tried to run my existing app and then i got this errors
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':package_info_plus:packageDebugResources'.
+> Error while evaluating property 'namespace' of task ':package_info_plus:packageDebugResources'
+   > Failed to calculate the value of task ':package_info_plus:packageDebugResources' property 'namespace'.
+      > Failed to calculate the value of property 'namespace'.
+         > Package Name not found in C:\Users\Pearl\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-3.1.2\android\src\main\AndroidManifest.xml, and namespace not specified. Please specify a namespace for the generated R and BuildConfig classes via android.namespace in the module's build.gradle file like so:
+
+           android {
+               namespace 'com.example.namespace'
+           }
+
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+Exception: Gradle task assembleDebug failed with exit code 1
+ i need help to solve this errors
